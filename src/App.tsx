@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>PWA CHANGED </p>
+        <p>PWA CHANGED AGAAAAIN</p>
       </header>
     </div>
   );
