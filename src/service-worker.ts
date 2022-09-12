@@ -81,6 +81,7 @@ self.addEventListener("message", (event) => {
 // Any other custom service worker logic can go here.
 
 self.addEventListener("fetch", function (event) {
+  alert("FETCH");
   event.respondWith(
     fetch(event.request).then(function (networkResponse) {
       return networkResponse;

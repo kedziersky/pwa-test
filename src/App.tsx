@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  useEffect(() => {
+  /*  useEffect(() => {
     if (window.matchMedia("(display-mode: standalone)").matches) {
       document.addEventListener("visibilitychange", function () {
         if (document.visibilityState === "visible") {
@@ -12,7 +12,7 @@ function App() {
         }
       });
     }
-  }, []);
+  }, []); */
   return (
     <div className="App">
       <header className="App-header">
